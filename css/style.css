@@ -1,0 +1,106 @@
+body{
+  background: #24050D ;
+  font-family: "Century Gothic"
+}
+a:hover{
+  box-shadow: 0 0 50px white;
+  text-shadow: 0 0 10px white;
+}
+a {
+  color: white;
+  padding: 5px;
+  background:#AA3939;
+  text-decoration: none;
+  margin: 10px 0 10px 0;
+  transition: all .5s linear;
+}
+#wrapper{
+  background: #FFFFFF;
+  width: 1256px;
+  margin: 50px auto;
+}
+#header {
+  background: #338A2E;
+  padding: 20px;
+  color: white;
+	overflow: hidden;
+}
+#header h1{
+  text-align: justify;
+	line-height: 12px;
+	float: left;
+}
+#header nav{
+  float: right;
+	line-height: 12px;
+}
+#content{
+  min-height: 700px;
+}
+#content h1,h2{
+  text-align: center;
+}
+#content, #bottom{
+	overflow: hidden;
+ background-color: #BBEAF2;
+}
+img{
+  height:200px;
+}
+#content p{
+  text-align: justify;
+}
+article{
+  width:350px;
+  float:left;
+  padding:10px;
+  border: 1px solid black;
+	overflow: hidden;
+  margin: 10px;
+  height: 1087px;
+}
+aside section{
+  width:350px;
+  float:right;
+  padding:10px;
+  border: 1px solid black;
+  overflow: hidden;
+  margin: 10px;
+}
+#bottom article{
+	width: 30%;
+	overflow: hidden;
+	display: inline-block;
+}
+#tema1{
+	margin: 2px;
+	padding: 10px;
+	height: 600px;
+}
+#tema2{
+	padding: 2px;
+	height: 600px;
+	margin: 10px;
+}
+#tema3{
+	margin: 2px;
+	padding: 10px;
+	height: 600px;
+	float: right;
+}
+footer{
+  background-color:black;
+  color:white;
+  clear:both;
+  text-align:center;
+  padding:5px;
+}
+thead {
+    color:green;
+}
+tbody {
+      color:blue;
+}
+tfoot {
+  color:darkred;
+}
