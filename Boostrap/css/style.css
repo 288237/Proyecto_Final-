@@ -2,6 +2,26 @@ body{
   background: #24050D ;
   font-family: "Century Gothic"
 }
+.contenido h1 {
+  color: #0F1C2A;;
+  text-align:left;
+  display:block;
+  font-weight:normal;
+  line-height: 120px;
+  font-size:30px;
+}
+.contenido p {
+  font-size: 18px;
+  line-height: 1.25;
+  margin: 30px auto;
+  max-width: 800px;
+  color:#0B302A;
+  text-align:center;
+}
+.panel-default{
+  background:bottom center no-repeat #DAD0D0;
+  min-height:250px;
+}
 a:hover{
   box-shadow: 0 0 50px white;
   text-shadow: 0 0 10px white;
@@ -34,10 +54,10 @@ a {
   float: right;
 	line-height: 12px;
 }
-#content h1,h2{
+#content h2{
   text-align: center;
 }
-#content, #bottom{
+#content{
 	overflow: hidden;
  background-color: #BBEAF2;
 }
@@ -47,15 +67,6 @@ img{
 #content p{
   text-align: justify;
 }
-article{
-  width:350px;
-  float:left;
-  padding:10px;
-  border: 1px solid black;
-	overflow: hidden;
-  margin: 10px;
-  height: 1087px;
-}
 aside section{
   width:350px;
   float:right;
@@ -64,12 +75,7 @@ aside section{
   overflow: hidden;
   margin: 10px;
 }
-#bottom article{
-	width: 30%;
-	overflow: hidden;
-	display: inline-block;
-}
-#tema1{
+/*#tema1{
 	margin: 2px;
 	padding: 10px;
 	height: 600px;
@@ -84,6 +90,38 @@ aside section{
 	padding: 10px;
 	height: 600px;
 	float: right;
+}*/
+.contacto [type=text] {
+  width:500px;
+  border: 1px solid #222;
+  border-radius: 7px;
+  line-height:40px;
+  padding:0 10px;
+  outline:none;
+  margin:10px 0;
+  transition: all .3s ease-in-out;
+}
+.contacto [type=text]:focus {
+  box-shadow: 0 0 85px #316696;
+  border-color: #FFF;
+}
+.contacto [type=submit] {
+  width:522px;
+  border: 1px solid #222;
+  border-radius: 7px;
+  line-height:40px;
+  outline:none;
+  display:block;
+  background:#0C2029;
+  color:#ddd;
+  font-size:20px;
+  text-align:center;
+  transition: all .3s ease-in-out;
+}
+.contacto [type=submit]:hover {
+  box-shadow: 0 0 85px #316696;
+  color: #FFF;
+  border-color: #FFF;
 }
 footer{
   background-color:black;
@@ -92,15 +130,22 @@ footer{
   text-align:center;
   padding:5px;
 }
-table, th, td {
-  border: 1px solid black;
+/*#Loader{
+  position:fixed;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  vertical-align: middle;
+  display: flex;
+  background-color:rgba(0,0,0,0.8);
 }
-thead {
-    color:green;
-}
-tbody {
-      color:blue;
-}
-tfoot {
-  color:darkred;
-}
+#cargar{
+  width:50%;
+  height:50%;
+  margin:auto;
+  position:relative;
+  background-image:url("../img/cargando.gif");
+  background-repeat: no-repeat;
+  background-position:center;
+}*/
