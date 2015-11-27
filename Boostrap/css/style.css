@@ -1,6 +1,10 @@
 body{
   background: #24050D ;
-  font-family: "Century Gothic"
+  font-family: "korean calligrafy"
+}
+.thumbnail{
+  line-height: 200px;
+  width: 200px;
 }
 .contenido h1 {
   color: #0F1C2A;;
@@ -41,7 +45,7 @@ a {
 }
 #header {
   background: #338A2E;
-  padding: 20px;
+  padding: 120px;
   color: white;
 	overflow: hidden;
 }
@@ -49,6 +53,7 @@ a {
   text-align: justify;
 	line-height: 12px;
 	float: left;
+  font-size: 80px;
 }
 #header nav{
   float: right;
@@ -61,36 +66,16 @@ a {
 	overflow: hidden;
  background-color: #BBEAF2;
 }
-img{
-  height:200px;
-}
 #content p{
   text-align: justify;
 }
 aside section{
   width:350px;
-  float:right;
-  padding:10px;
-  border: 1px solid black;
+  float:left;
+  padding:10px 76px 10px 76px;
   overflow: hidden;
-  margin: 10px;
+  margin: 10px 10px 10px 50px;
 }
-/*#tema1{
-	margin: 2px;
-	padding: 10px;
-	height: 600px;
-}
-#tema2{
-	padding: 2px;
-	height: 600px;
-	margin: 10px;
-}
-#tema3{
-	margin: 2px;
-	padding: 10px;
-	height: 600px;
-	float: right;
-}*/
 .contacto [type=text] {
   width:500px;
   border: 1px solid #222;
@@ -128,24 +113,5 @@ footer{
   color:white;
   clear:both;
   text-align:center;
-  padding:5px;
+  padding:120px;
 }
-/*#Loader{
-  position:fixed;
-  width:100%;
-  height:100%;
-  top:0;
-  left:0;
-  vertical-align: middle;
-  display: flex;
-  background-color:rgba(0,0,0,0.8);
-}
-#cargar{
-  width:50%;
-  height:50%;
-  margin:auto;
-  position:relative;
-  background-image:url("../img/cargando.gif");
-  background-repeat: no-repeat;
-  background-position:center;
-}*/
