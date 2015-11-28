@@ -2,6 +2,39 @@ body{
   background: #24050D ;
   font-family: "korean calligrafy"
 }
+.title{
+	font-size: 20px;
+}
+#content1{
+	width: 90%;
+	margin: 1% 5% 0 7%;
+}
+#prom3 h2{
+padding-bottom: 5.5%;
+}
+.prom {
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+li{
+	font-size: 15px;
+	padding: 5px;
+}
+.prom{
+	width: 30%;
+	display: inline-block;
+}
+.flecha:hover{
+	cursor: pointer;
+}
+#subpanel1, #subpanel2, #subpanel3{
+    display: inline-block;
+	width: 30%;
+}
+.panel-l {
+	display: none;
+}
 .thumbnail{
   line-height: 200px;
   width: 200px;
