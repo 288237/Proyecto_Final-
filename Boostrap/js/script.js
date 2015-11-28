@@ -34,11 +34,4 @@ $(document).ready(function(){
       $("#subpanel3").css("background-color","#e5eecc").css("border", "solid 1px #c3c3c3");
   });
 
-  function loader(){
-    var Loader =  $('<div>',{id:'Loader'});
-    Loader.append($('<div>',{id:'cargar'}));
-    $('body').append(Loader);
-      Loader.fadeOut(2000);
-  }
-
 });
